@@ -1,4 +1,4 @@
-package com.kevinjanvier.swoosh
+package com.kevinjanvier.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

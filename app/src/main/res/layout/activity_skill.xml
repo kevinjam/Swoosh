@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kevinjanvier.swoosh.SkillActivity">
+    tools:context="com.kevinjanvier.swoosh.Controller.SkillActivity">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -72,6 +72,7 @@
             android:textOff="@string/beginner"
             android:textOn="@string/beginner"
             android:layout_marginEnd="16dp"
+            android:onClick="onBeginnerClick"
             />
 
         <ToggleButton
@@ -86,11 +87,12 @@
             android:textOff="@string/baller"
             android:textOn="@string/baller"
             android:layout_marginStart="16dp"
+            android:onClick="onBallerClick"
             />
     </LinearLayout>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/skillfinshBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -101,6 +103,7 @@
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="onSkillFinishClicked"/>
 
 </android.support.constraint.ConstraintLayout>
