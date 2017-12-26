@@ -4,9 +4,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.kevinjanvier.swoosh.Model.Player
 import com.kevinjanvier.swoosh.R
-import com.kevinjanvier.swoosh.Utilities.EXTRA_LEAGUE
 import com.kevinjanvier.swoosh.Utilities.EXTRA_PLAYER
-import com.kevinjanvier.swoosh.Utilities.EXTRA_SKILL
 import kotlinx.android.synthetic.main.activity_finish.*
 
 class FinishActivity : AppCompatActivity() {
